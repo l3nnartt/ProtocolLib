@@ -266,13 +266,10 @@
 
 	<distributionManagement>
 		<repository>
-			<id>dmulloy2-releases</id>
-			<url>https://repo.dmulloy2.net/repository/releases/</url>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/l3nnartt/protocollib</url>
 		</repository>
-		<snapshotRepository>
-			<id>dmulloy2-snapshots</id>
-			<url>https://repo.dmulloy2.net/repository/snapshots/</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 	<repositories>
